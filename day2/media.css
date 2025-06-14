@@ -1,0 +1,11 @@
+div{
+    height: 100px;
+    background-color: pink;
+    width: 100px;
+    border: 2px solid grey;
+}
+@media (max-width: 400px) {
+    div{
+        background-color:black;
+    }
+}

@@ -1,0 +1,35 @@
+#primary{
+    width: 99.5vw;
+    height: 60px;
+    background-color: rgb(48, 23, 23);
+    border: 2px solid white;
+    text-align: left;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    background-color: purple;
+}
+a{
+    margin-right: 12vw;
+    text-decoration: none;
+    color: white;
+    background: transparent;
+}
+#main {
+    color: #f08804;
+    padding-left: 5px;
+    margin-left: 5px;
+    
+}
+#search{
+    background-color: white;
+}
+button{
+    color: white;
+
+}
+pre{
+    background-color: #f08804;
+}

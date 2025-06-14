@@ -1,0 +1,33 @@
+div{
+    display: inline-block;
+    margin: 20px;
+    height: 100px ;
+    width: 100px;
+    border: 2px solid black;
+    text-align: center;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: lavender;
+
+}
+#box1{
+    background-color: purple;
+    position: relative;
+    
+}
+#box2{
+    background-color: magenta;
+    margin-top:5px ;
+    position: static;
+
+}
+#box5{
+    background-color: blueviolet;
+    position: fixed;
+}
+#box4{
+    background-color: blueviolet;
+    position: sticky;
+}
