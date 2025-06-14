@@ -1,0 +1,16 @@
+img{
+    border-radius: 40px;
+    height: 400px;
+    padding: 30px;
+
+}
+table{
+    border: 2px solid red;
+}
+td{
+    border: 2px solid black;
+}
+th{
+    border: 2px solid green;
+}
+
