@@ -1,0 +1,37 @@
+cls	 cumulative layout shift
+lcp	 largest contextual page
+fid	 first input delay
+
+
+html forms
+
+<form>
+<input type="text" name="username" placeholder=" this is placeholder"
+
+type = radio value = female  label for= female name == at a time 
+
+inline and block elements
+
+inline 
+anchor
+span
+
+ block
+paragraph
+
+image src = bla bla bla.com or /bla/bla/bla
+
+bold b
+italic i
+underline u
+
+big 
+small
+
+hr
+
+sub
+sup
+
+pre for spaces
+
