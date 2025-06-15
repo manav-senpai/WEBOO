@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    border: 2px solid black;
+    height: 133px;
+    width: 80vw;
+    margin: 3px;
+    padding: 34px;
+
+
+}
+ 
+.box1{
+    background-color: aqua;
+}
+.box2{
+background-color: magenta;
+position: fixed;
+
+}
+.box3{
+background-color: beige;
+position: relative;
+top: 34px;
+left: 34px;
+}
+.box4{
+background-color: purple;
+}
+
+.parent{
+    position: absolute;
+    margin: 34px;
+    border: 2px solid greenyellow;
+    margin: 34px;
+}
