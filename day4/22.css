@@ -1,0 +1,35 @@
+:root{
+    --color: blue;
+    --seccolour: rgb(194, 145, 46);
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+
+}
+
+ul li{
+    list-style: none;
+    padding: 34px;
+}
+
+.nav{
+    background: var(--seccolour);
+}
+.container{
+    background-color: var(--color);
+}
+
+#matuk{
+        --seccolour: red;
+   
+        background-color: var(--seccolour);
+
+}
