@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+
+.container{
+
+    border: 2px solid red;
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+
+    height: 32px;
+    width: 32px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    margin: 4px;
+}
+
+.order-1{
+    order: 100;
+}
+.order-2{
+    order: 20;
+}
