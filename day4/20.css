@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+}
+li{
+    background-color: yellow;
+    list-style: none;
+    list-style-type: "😭";
+}
+ul{
+    display: flex;
+}
+div{
+    height: 129px;
+    width: 230px;
+    border: 2px solid green;
+    overflow: scroll;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
