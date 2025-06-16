@@ -1,0 +1,1 @@
+this is the clone of an ultraedit website.. where grids are used and features downloading of content.. that's it.. well was get the use of grids.. is unresponsive at first.. but will be adding the responsive one too.. 
