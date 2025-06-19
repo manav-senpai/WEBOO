@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url("walpaperBody.jpg");
+  background-blend-mode: lighten;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 100vw;
+  backdrop-filter: blur(0.5px);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  color: white;
+  position: relative;
+  border-radius: 30px;
+  margin: 20px;
+
+  background-image: url("walpaper.jpg");
+  background-size: cover;
+  background-position: center;
+
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.navLogo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#navLogoImg {
+  height: 50px;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+
+.menuBtn {
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navLinks li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+@media (max-width: 768px) {
+  .menuBtn {
+    display: block;
+  }
+
+  .navLinks {
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    display: none;
+    padding: 15px 10px;
+    gap: 10px;
+
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.4), 
+        rgba(0, 0, 0, 0.4)
+      ),
+      url("walpaper2.jpg");
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  }
+
+  .navLinks.showMenu {
+    display: flex;
+  }
+
+  .navLinks li {
+    list-style: none;
+  }
+
+  .navLinks li a {
+    display: block;
+    text-align: center;
+    padding: 12px;
+    border-radius: 15px;
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease;
+
+    opacity: 0;
+    transform: translateY(10px);
+    animation: slideFadeIn 0.4s ease forwards;
+    animation-delay: calc(0.1s * var(--i));
+  }
+
+  .navLinks li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: scale(1.03);
+  }
+
+  .navLinks li:nth-child(1) { --i: 1; }
+  .navLinks li:nth-child(2) { --i: 2; }
+  .navLinks li:nth-child(3) { --i: 3; }
+  .navLinks li:nth-child(4) { --i: 4; }
+  .navLinks li:nth-child(5) { --i: 5; }
+
+  @keyframes slideFadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
