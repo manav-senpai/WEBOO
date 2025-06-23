@@ -1,0 +1,27 @@
+.container{
+    height:80vh ;
+    width:30vw;
+    background-color: rgb(52, 199, 84);
+}
+
+.box{
+    height: 34px;
+    width: 45px;
+    background-color: aqua;
+    /* animation: ManavKaAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0, 0, 0, 0.96);
+    animation-direction: alternate-reverse;    
+    animation-play-state: paused; */
+    animation: ManavKaAnimation 3s ease-in 3s infinite reverse ;
+}
+
+@keyframes ManavKaAnimation {
+    from{
+    }
+    to{
+
+        transform: translateX(100px);
+    }
+}
