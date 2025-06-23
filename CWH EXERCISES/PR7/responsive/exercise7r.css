@@ -1,0 +1,201 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.right {
+    display: flex;
+
+}
+
+.left {
+    display: flex;
+}
+
+.langlogo img {
+    height: 20px;
+    margin-top: 10px;
+
+}
+
+.items {
+    padding: 10px;
+}
+
+.items select {
+    border: none;
+    cursor: pointer;
+
+    color: rgb(73, 63, 63);
+}
+
+.title {
+    font-weight: 800;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.info {
+    font-size: 10px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(44, 40, 40);
+}
+
+.main {
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 300px 300px 300px;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+
+
+.langpacks {
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+}
+
+.button {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 20%;
+    justify-content: center;
+
+}
+
+.button button {
+    font-size: 13px;
+    width: 130%;
+    height: 130%;
+    padding: 3px;
+    border-radius: 5px;
+    border: none;
+}
+
+.language {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.button1 {
+    background-color: rgb(49, 199, 199);
+    color: white;
+    font-weight: 700;
+}
+
+.button2 {
+    background-color: rgb(105, 199, 105);
+    color: white;
+    font-weight: 700;
+}
+
+.button1:hover {
+    background-color: rgb(22, 145, 145);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background-color: rgb(19, 143, 19);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.langname {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 120%;
+    text-align: center;
+}
+
+.langname-eng {
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 70%;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.hero {
+    text-align: center;
+    margin: 40px;
+}
+
+.dfw {
+    font-size: 2em;
+
+}
+
+.context {
+    font-size: 1em;
+    margin-top: 40px;
+}
+
+.macli {
+    margin-top: 30px;
+}
+
+.macli button {
+    background-color: rgb(74, 235, 235);
+    padding: 1%;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.macli button:hover {
+    background-color: rgb(87, 134, 221);
+}
+
+@media screen and (max-width: 900px) {
+    .main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 150px 150px 150px 150px 150px;
+        margin: 20px;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+        justify-content: center;
+        margin: 20px;
+    }
+}
+.body{
+    width: 100vw;
+    display: flex;
+}
