@@ -1,0 +1,15 @@
+.container{
+    height: 334px;
+    width: 448px;
+    border: 2px solid black;
+    background-color: papayawhip;
+}
+.container img{
+    object-fit: cover;
+    object-position: top right;
+    /* object-position: bottom right; */
+    /* object-fit: contain; */
+    height: 334px;
+    width: 448px;
+    object-fit: fill;
+}
