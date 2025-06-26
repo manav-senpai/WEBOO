@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-image: url("assets/images/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1300px, 100vw);
+    height: 80vh;
+    position: relative;
+
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.44;
+    background-color: black;
+    position: absolute;
+    top: 0;
+
+
+}
+
+
+nav {
+    display: flex;
+    max-width: 70vw;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    height: 62px;
+}
+
+nav img {
+    color: red;
+    width: 125px;
+    position: relative;
+}
+
+.right{
+    display: flex;
+    height: 30px;
+    gap: 15px;
+    
+    
+}
+.right select{
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    border-radius: 3px;
+    padding-left: 5px;
+    padding-right: 10px;
+
+}
+.right button{
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 2px black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.mrz {
+    z-index: 10;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100%;
+
+}
+
+.title {
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    width: 60vw;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.price{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+.info{
+    font-size: 20px;
+    text-align: center;
+}
+.email input{
+   
+    width: 300px;
+    font-size: 16px;
+    color: antiquewhite;
+    background-color: rgb(14, 11, 11);
+    opacity: 0.8;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-left: 10px;
+    
+}
+.email {
+    display: flex;
+    gap: 5px;
+    height: 50px;
+    margin-top: 20px;
+    
+}
+.email button{
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    
+}
+@media (max-width: 900px) and (min-width:501px){
+   .title{
+    font-size: 50px;
+    width: 70vw;
+   }
+   .hero{
+    width: 90vw;
+    padding-left: 50px;
+    padding-right: 50px;
+   }
+   nav{
+    width: 90vw;
+   }
+}
+@media (max-width:500px){
+    .email{
+        flex-direction: column;
+        height: 80px;
+        width: 70vw;
+        align-items: center;
+    }
+    .email input{
+        height: 40px;
+        
+    }
+    .email button{
+        width: 100px;
+        height:40px ;
+        box-sizing: none;
+    }
+    nav{
+        width: 90vw;
+    }
+    .title{
+        font-size: 40px;
+    }
+    .price{
+        font-size: 20px;
+
+    }
+    .info{
+        font-size: 15px;
+    }
+}
+input:hover{
+    border: 3px solid white;
+}
+.email button:hover{
+    border: 3px solid white;
+}
