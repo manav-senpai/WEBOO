@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+}
+button{
+    color: white;
+    position: absolute;
+    background-color: pink;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    left: 30px;
+    top: 40px;
+}
+
+/*  ADDING HOVER EFFECTS */
+button:hover{
+    background-color: red;
+    transform: scale(1.5);
+}
